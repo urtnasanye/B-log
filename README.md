@@ -32,7 +32,7 @@
                  -user
                     -edit.ejs
                  
-   -NewPage.js 
+   -NewPage.js
 
 
 
