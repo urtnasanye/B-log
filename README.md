@@ -43,6 +43,7 @@
 ##########################################################################
 
 Database дээр 3-н table үүсгэх
+
   -create table registerUsers(
 rUsers_id int AUTO_INCREMENT PRIMARY KEY,
 user_img varchar(100),
@@ -50,6 +51,9 @@ username varchar(45),
 email varchar(45),
 password varchar(45)
 );
+
+
+
   -create table contact(
 idcontact int AUTO_INCREMENT PRIMARY KEY,
 firstname varchar(200) NOT NULL,
@@ -57,6 +61,9 @@ lastname varchar(200) not null,
 country varchar(200) NOT NULL,
 subject varchar(200) NOT NULL
 );
+
+
+
 -create table posts(
 posts_id int AUTO_INCREMENT PRIMARY KEY,
 file varchar(200) NOT NULL ,
